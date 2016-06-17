@@ -100,7 +100,7 @@ class ViewPanel extends JPanel implements Observer {
 				
 				
 			}}
-		try {
+		/*try {
 			Thread.sleep(5);
 			
 			
@@ -110,7 +110,7 @@ class ViewPanel extends JPanel implements Observer {
 			e1.printStackTrace();
 			}if (z>=1280)
 			{z=0;}
-		this.repaint();z=z+64;
+		this.repaint();z=z+64;*/
 	
 		}
 		

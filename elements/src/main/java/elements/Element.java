@@ -1,8 +1,8 @@
 package elements;
 
-import contract.IElement;
 
-public abstract class Element implements IElement{
+
+public  class Element {
 	private int TYPE;
 	private boolean PENETRABLE;
 

@@ -98,6 +98,7 @@ public class Model extends Observable implements IModel {
 		{
 		case 'U': 
 			 img = ImageIO.read(new File("sprite/lorann_l.png"));
+			
 			 break;
 			
 		case 'O':

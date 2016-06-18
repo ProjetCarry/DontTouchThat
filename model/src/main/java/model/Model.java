@@ -23,7 +23,7 @@ public class Model extends Observable implements IModel {
 	private String message ="";
 	 private Image img;
 	 
-	 char[] ch = null;
+	 char[] ch = new char[19];
 
 	/**
 	 * Instantiates a new model.
@@ -90,6 +90,7 @@ public class Model extends Observable implements IModel {
 	{
 		//ch = message.toCharArray(); 
 		for(int i = 0; i<240;i++){
+			System.out.println(i);
 			System.out.println("Char : " + ch[i]);
 			System.out.println("cpt : " + cpt);
 		}
